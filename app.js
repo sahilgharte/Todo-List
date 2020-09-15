@@ -9,7 +9,7 @@ app.use(express.static("public"));
 app.set("view engine","ejs");
 // var inputs=[];
 
-mongoose.connect("mongodb+srv://admin-sahilgharte:iamsahilgharte@cluster0.7a2yn.mongodb.net/todolistDB",{useNewUrlParser:true,useUnifiedTopology: true})
+mongoose.connect("mongodb+srv://admin-username:password@cluster0.7a2yn.mongodb.net/todolistDB",{useNewUrlParser:true,useUnifiedTopology: true})
 
 const itemsSchema = new mongoose.Schema ({
 	name:{
